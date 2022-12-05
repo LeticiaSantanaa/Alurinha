@@ -8,6 +8,27 @@
     display: flex;
 }
 
+
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) /*vou pegar os multiplos de 4 (ou seja os elementos q estao na quarta coluna*/{
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-right: 0;
+}
+
+
 .rodapePrincipal-patrocinadores .container{
     display: flex;
     align-items: center;
@@ -27,4 +48,11 @@
 
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    height: 260px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
