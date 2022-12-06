@@ -42,6 +42,7 @@
 }
 .videoSobre-video{
     flex-grow: 1;
+    flex-shrink: 2; /*Quero q quando diminuir a tela o video diminua 2x mais do q o "vantagens"*/
 }
 .rodapePrincipal-patrocinadores .container{
     display: flex;
@@ -91,6 +92,14 @@
     }
     .conteudoPrincipal-cursos-link{
         width: 100%;
+    }
+
+    .videoSobre .container{
+        flex-direction: column;
+    }
+
+    .videoSobre-video{
+        margin: 0 auto;
     }
     
     .rodapePrincipal-navMap-list{
