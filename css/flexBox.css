@@ -56,3 +56,15 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+@media screen and (min-width: 320px){
+    .cabecalhoPrincipal-nav{
+        flex-direction: column;
+    }
+    .cabecalhoPrincipal .container{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    
+}
